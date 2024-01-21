@@ -11,7 +11,7 @@ from PyQt6 import uic
 
 class ImageAnalysisApp(QMainWindow):
     def __init__(self):
-        
+        # NEW CODE 21.01.24
         super().__init__()
         ui_file = "interface\ImgAnalysis.ui"
         self.ui_class, base_class = uic.loadUiType(ui_file)
